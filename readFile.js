@@ -9,7 +9,7 @@ const start = async()=>{
         const first = await readFiletxt('./first.txt', 'utf-8')
     console.log(first);
     } catch (error) {
-        console.log(error)
+      console.log(error);
     }
     
 }
